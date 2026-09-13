@@ -14,6 +14,8 @@
 
 #define OBSIDIAN_PRINT_ENCRYPTED_STR(str) std::cout << DecryptString(str, OBSIDIAN_KEY) << "\n";
 
+#define OBSIDIAN_PRINT_STR(str) OBSIDIAN_PRINT_ENCRYPTED_STR(OBSIDIAN_CPT_STRING(str));
+
 #define OBSIDIAN_TIME_CHAR (__TIME__[1] - '0')
 
 #define OBSIDIAN_CPT_NUMBER(number) EncryptNumber(number, OBSIDIAN_SEED, OBSIDIAN_TIME_CHAR)

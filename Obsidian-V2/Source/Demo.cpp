@@ -14,7 +14,7 @@ int main()
     std::cout << "  Decrypted: ";
     OBSIDIAN_PRINT_ENCRYPTED_STR(EncryptedStr);
 
-    OBSIDIAN_PRINT_ENCRYPTED_STR(OBSIDIAN_CPT_STRING("\n  Very secret string 2"));
+    OBSIDIAN_PRINT_STR("Very secret string 2");
 
     constexpr auto EncryptedNum = OBSIDIAN_CPT_NUMBER(133.7f);
 
