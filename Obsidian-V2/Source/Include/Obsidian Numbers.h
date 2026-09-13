@@ -1,7 +1,5 @@
 #pragma once
 #include <bit>
-#include <cstdint>
-#include <type_traits>
 
 template <typename T>
 using uint_for = std::conditional_t<sizeof(T) == 1, uint8_t,

@@ -16,7 +16,6 @@ A lightweight, header-only C++ library for compile-time string and number encryp
 ## Requirements
 
 - C++20 or later
-- MSVC (uses `<Windows.h>` internally)
 
 ---
 

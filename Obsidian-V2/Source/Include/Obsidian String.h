@@ -1,8 +1,5 @@
 #pragma once
 #include <array>
-#include <cstdint>
-#include <chrono>
-#include <Windows.h>
 #include <iostream>
 
 template <std::size_t N>
