@@ -21,6 +21,11 @@ int main()
     std::cout << "\n[Number]\n";
     std::cout << "  Encrypted: " << EncryptedNum << "\n";
     std::cout << "  Decrypted: " << OBSIDIAN_DECRYPT_NUMBER(EncryptedNum) << "\n";
+    std::cout << "  Or: ";
+    OBSIDIAN_PRINT_ENCRYPTED_NUMBER(EncryptedNum);
+
+    auto EncryptedSum = OBSIDIAN_NUMBER(5) + OBSIDIAN_NUMBER(7);
+    std::cout << "\n  " << EncryptedSum;
 
     std::cin.get();
     return 0;
